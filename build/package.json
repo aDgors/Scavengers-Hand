@@ -1,0 +1,29 @@
+{
+  "name": "scavenger_39s_32hand_32v1",
+  "main": "main.js",
+  "productName": "Scavenger's Hand v1",
+  "description": "Scavenger's Hand v1",
+  "author": "",
+  "version": "1.0.0",
+  "dependencies": {
+    
+    "@electron/remote": "^2.0.8"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "18.2.2",
+    "electron-builder": "22.11.11"
+  },
+  "build": {
+    "appId": "com.example.gamename",
+    "extraFiles": [
+      "LICENSE.GDevelop.txt"
+    ],
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}
