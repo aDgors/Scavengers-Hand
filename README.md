@@ -3,6 +3,18 @@
 
 # Change log
 
+## Change log v0.05 / v0.06:
+
+	- Main menu changes:
+		- Menu's scene's code cleaned up (Thanks to Seven)
+		- Added Procedurally Generated Demo (PGD) settings
+
+	- Other changes:
+		- Started using structures for different things, just to keep things more organized
+		- Tidied up the main menu code a bit more
+	
+
+
 ## Demo version 0.04
 
 	- Main Menu changes:
