@@ -32,4 +32,4 @@
   -  most objects have a sprite and tile equivalent (sprite is for DungeonGenerator, and tile is for manually designing rooms)
   -  added a version number to the menu screen
 
-  -New version number system: increment the version number +0.01 per 'release'
+New version number system: increment the version number +0.01 per 'release'
