@@ -2256,7 +2256,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "[shadow=black]V0.03 (demo build)[/shadow]",
+            "text": "[shadow=black]V0.04 (demo build)[/shadow]",
             "opacity": 255,
             "fontSize": 50,
             "visible": true,
