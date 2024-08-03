@@ -1,6 +1,16 @@
 # Scavenger's Hand
  The first card game from a team of passionate people: Experience the thrill of a roguelike card game where every action is determined by the draw of a card. Stay tuned for more details as the lore unfolds!
 
+## The team of passionate people:
+- aDgors (Main Developer)
+- Seven (Second Developer)
+- WhiteDevil (Storyteller)
+- Roselisa (Designer)
+
+# Discord server
+
+You can join our Discord server - **Dungeon's Entrance** - by clicking [right here](https://discord.gg/invite/MBeE9krznG/). Server is going to open once we gather enough members (which we call *scavengers*), but for any suggestions you can DM @adgors.
+
 # Change log
 
 ## Change log v0.05 / v0.06:
