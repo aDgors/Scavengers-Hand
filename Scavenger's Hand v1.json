@@ -1723,7 +1723,7 @@
         "gridColor": 13092807,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.37687720367509064,
+        "zoomFactor": 0.4027225833325948,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3924,33 +3924,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Levels\""
-              ]
-            },
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Settings UI\""
-              ]
-            },
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Procedurally Generated Noise Demo Variables Menu\""
-              ]
-            },
             {
               "type": {
                 "value": "PanelSpriteButton::PanelSpriteButton::Activate"
