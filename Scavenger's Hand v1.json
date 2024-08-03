@@ -4407,6 +4407,15 @@
               },
               "parameters": [
                 "",
+                "\"Game Mechanics\""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
                 "\"Levels\""
               ]
             },
@@ -4425,7 +4434,7 @@
               },
               "parameters": [
                 "",
-                "\"Procedurally Generated Noise Demo Variables Menu\""
+                "\"Procedurally Generated Demo Variables Menu\""
               ]
             },
             {
@@ -4434,7 +4443,7 @@
               },
               "parameters": [
                 "",
-                "\"Game Mechanics\""
+                "\"Procedurally Generated Noise Demo Variables Menu\""
               ]
             },
             {
