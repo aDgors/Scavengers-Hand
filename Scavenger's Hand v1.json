@@ -723,6 +723,190 @@
         "name": "collision_box",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite16.png\"}",
+        "name": "NewSprite16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Up.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "blank_card.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blank_card.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "movement_card_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "movement_card_34.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sword_card_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sword_card_32.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/blank.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "blank",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/movement_card_34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "movement_card_34",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sword_card_32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sword_card_32",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hand_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "78fb95492456f4a12ccdbbaac9ed3b40d4fa5a52b35b023a8a9d7735bf1bc17f_Hand_Right.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Console Inputs/VR/Vive/78fb95492456f4a12ccdbbaac9ed3b40d4fa5a52b35b023a8a9d7735bf1bc17f_Hand_Right.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/unusable_card.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "unusable_card",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/unusable_card2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "unusable_card2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/card_down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "card_down",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/card_down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "card_down2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3930,7 +4114,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Demo v0.06\n",
+          "string": "Demo v0.07a\n",
           "font": "Pixel Digivolve.ttf",
           "textAlignment": "center",
           "characterSize": 80,
@@ -3953,7 +4137,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Demo v0.06\n",
+            "text": "Demo v0.07a\n",
             "font": "Pixel Digivolve.ttf",
             "textAlignment": "center",
             "characterSize": 80,
@@ -12017,7 +12201,7 @@
         "gridColor": 6842472,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.7327683944531087,
+        "zoomFactor": 2.25925357695559,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12030,13 +12214,13 @@
         },
         {
           "folded": true,
-          "name": "Variable",
+          "name": "card",
           "type": "number",
           "value": 0
         },
         {
           "folded": true,
-          "name": "card",
+          "name": "deck_height",
           "type": "number",
           "value": 0
         }
@@ -12129,22 +12313,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "4a61de79-f693-49cc-be60-639de918994f",
-          "width": 0,
-          "x": 960,
-          "y": 448,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 2,
           "height": 222,
@@ -12159,199 +12327,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 8,
-          "height": 224,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "card_move",
-          "persistentUuid": "c6d70a8f-7f1c-461e-8089-345dc977616d",
-          "width": 160,
-          "x": 608,
-          "y": 800,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "card_count",
-              "type": "number",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 8,
-          "height": 224,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "card_move",
-          "persistentUuid": "37246e1c-fec9-4764-adb4-fb905b54c287",
-          "width": 160,
-          "x": 800,
-          "y": 800,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "direction",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 8,
-          "height": 224,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "card_move",
-          "persistentUuid": "ae5a552b-51a9-49f0-91da-45f8292ee10a",
-          "width": 160,
-          "x": 992,
-          "y": 800,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "direction",
-              "type": "number",
-              "value": 2
-            },
-            {
-              "folded": true,
-              "name": "card_count",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 8,
-          "height": 224,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "card_move",
-          "persistentUuid": "e3ee97f6-7bb1-411c-bfb8-7aa223624380",
-          "width": 160,
-          "x": 1184,
-          "y": 800,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "direction",
-              "type": "number",
-              "value": 3
-            },
-            {
-              "folded": true,
-              "name": "card_count",
-              "type": "number",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "card_Direction_text",
-          "persistentUuid": "1476fe87-b98e-4ef3-b632-f7fb7fbd8deb",
-          "width": 0,
-          "x": 608,
-          "y": 756,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "card_Direction_text",
-          "persistentUuid": "f72bcb10-6639-44be-82c8-3139912e6a46",
-          "width": 0,
-          "x": 800,
-          "y": 756,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "card_count_text",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "card_Direction_text",
-          "persistentUuid": "f79e9b9e-326e-4eaf-8523-d5dcd5780702",
-          "width": 0,
-          "x": 1185,
-          "y": 758,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "card_count_text",
-              "type": "number",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "card_Direction_text",
-          "persistentUuid": "89fa77db-4ece-4d04-a29a-50151853ecca",
-          "width": 0,
-          "x": 993,
-          "y": 758,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "card_count_text",
-              "type": "number",
-              "value": 2
-            }
-          ]
         },
         {
           "angle": 0,
@@ -12376,18 +12351,210 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "collision_box",
-          "persistentUuid": "509c96db-c860-46f1-8413-871f217747ab",
+          "name": "player_special",
+          "persistentUuid": "5825681a-685c-4f32-b832-189094c154ed",
           "width": 0,
-          "x": 992,
-          "y": 448,
+          "x": 960,
+          "y": 480,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.9375,
+          "height": 15,
+          "keepRatio": true,
+          "layer": "",
+          "name": "collision_box_special",
+          "persistentUuid": "7ff71a38-c1af-4537-9a3a-0b5da93954b9",
+          "width": 30,
+          "x": 961,
+          "y": 465,
+          "zOrder": 10,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.9375,
+          "height": 30,
+          "keepRatio": true,
+          "layer": "",
+          "name": "collision_box_special",
+          "persistentUuid": "d90c1b03-8b77-4b5e-8c6b-e42d4f60efce",
+          "width": 15,
+          "x": 992,
+          "y": 481,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 30,
+          "layer": "",
+          "name": "collision_box_special",
+          "persistentUuid": "9d3a8562-ae45-40a1-ab79-937c1133833f",
+          "width": 16,
+          "x": 944,
+          "y": 481,
+          "zOrder": 10,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.0666666666666667,
+          "height": 16,
+          "layer": "",
+          "name": "collision_box_special",
+          "persistentUuid": "f1ebda54-0750-4df6-af88-8b7bc3c513f8",
+          "width": 30,
+          "x": 961,
+          "y": 512,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 7,
+          "height": 188,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "cards",
+          "persistentUuid": "89f9549b-5ad6-4b6c-b771-538100acbc8c",
+          "width": 134,
+          "x": 616,
+          "y": 877,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 7,
+          "height": 188,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "cards",
+          "persistentUuid": "8022b1d4-aa28-4e51-af93-1d811ce185ed",
+          "width": 134,
+          "x": 776,
+          "y": 877,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
             {
               "folded": true,
-              "name": "direction",
+              "name": "card_count",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 7,
+          "height": 188,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "cards",
+          "persistentUuid": "80d938b8-d061-4b99-be43-4b4aa9e257b7",
+          "width": 134,
+          "x": 936,
+          "y": 877,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 7,
+          "height": 188,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "cards",
+          "persistentUuid": "66927a01-4911-4dfe-8629-40fc4a9825ac",
+          "width": 134,
+          "x": 1256,
+          "y": 877,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 7,
+          "height": 188,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "cards",
+          "persistentUuid": "ac465cfc-3aa0-4612-ae93-7c3cab309728",
+          "width": 134,
+          "x": 1096,
+          "y": 877,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
               "type": "number",
               "value": 3
             }
@@ -12398,62 +12565,53 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "collision_box",
-          "persistentUuid": "2947c5e6-a579-40a5-b730-380c8599d385",
+          "layer": "UI",
+          "name": "hand",
+          "persistentUuid": "3c62426f-a8a0-4120-9614-9960e6ea6f16",
           "width": 0,
-          "x": 928,
-          "y": 448,
-          "zOrder": 9,
+          "x": 1372,
+          "y": 960,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 90,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "collision_box",
-          "persistentUuid": "835aaeeb-53b3-46b1-9a13-639c2dc57825",
+          "layer": "UI",
+          "name": "card_origin",
+          "persistentUuid": "351a8326-dacc-4c5c-9f6e-a66f0cf1748f",
           "width": 0,
-          "x": 960,
-          "y": 416,
-          "zOrder": 9,
+          "x": 1376,
+          "y": 864,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "direction",
-              "type": "number",
-              "value": 2
-            }
-          ]
+          "initialVariables": []
         },
         {
-          "angle": 90,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "collision_box",
-          "persistentUuid": "f2ae2d7d-b60a-4de3-8549-78f6bb00a15e",
+          "layer": "UI",
+          "name": "card_origin",
+          "persistentUuid": "31f081f1-b683-4e8b-a433-a377ff468856",
           "width": 0,
-          "x": 960,
-          "y": 480,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
+          "x": 1376,
+          "y": 928,
+          "zOrder": 15,
+          "numberProperties": [
             {
-              "folded": true,
-              "name": "direction",
-              "type": "number",
+              "name": "animation",
               "value": 1
             }
-          ]
+          ],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -12628,6 +12786,10 @@
               "TouchIsInside": false,
               "MouseIsInside": false,
               "Index": 2.0247e-320
+            },
+            {
+              "name": "ObjectStack",
+              "type": "ObjectStack::ObjectStack"
             }
           ],
           "animations": [
@@ -12789,6 +12951,820 @@
             "characterSize": 40,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "player_special",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite15",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "collision_box_special",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "Up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Up",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Down2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Left",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Right",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "cards",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "blank",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "blank",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 6,
+                        "y": 2
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 28
+                          },
+                          {
+                            "x": 6,
+                            "y": 28
+                          },
+                          {
+                            "x": 6,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 3
+                          },
+                          {
+                            "x": 8,
+                            "y": 3
+                          },
+                          {
+                            "x": 8,
+                            "y": 2
+                          },
+                          {
+                            "x": 24,
+                            "y": 2
+                          },
+                          {
+                            "x": 24,
+                            "y": 3
+                          },
+                          {
+                            "x": 20,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 25,
+                            "y": 4
+                          },
+                          {
+                            "x": 26,
+                            "y": 4
+                          },
+                          {
+                            "x": 26,
+                            "y": 28
+                          },
+                          {
+                            "x": 25,
+                            "y": 28
+                          },
+                          {
+                            "x": 25,
+                            "y": 29
+                          },
+                          {
+                            "x": 24,
+                            "y": 29
+                          },
+                          {
+                            "x": 24,
+                            "y": 30
+                          },
+                          {
+                            "x": 8,
+                            "y": 30
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          },
+                          {
+                            "x": 7,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "movement_card",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "movement_card_34",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 6,
+                        "y": 2
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 28
+                          },
+                          {
+                            "x": 6,
+                            "y": 28
+                          },
+                          {
+                            "x": 6,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 3
+                          },
+                          {
+                            "x": 8,
+                            "y": 3
+                          },
+                          {
+                            "x": 8,
+                            "y": 2
+                          },
+                          {
+                            "x": 24,
+                            "y": 2
+                          },
+                          {
+                            "x": 24,
+                            "y": 3
+                          },
+                          {
+                            "x": 20,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 25,
+                            "y": 4
+                          },
+                          {
+                            "x": 26,
+                            "y": 4
+                          },
+                          {
+                            "x": 26,
+                            "y": 28
+                          },
+                          {
+                            "x": 25,
+                            "y": 28
+                          },
+                          {
+                            "x": 25,
+                            "y": 29
+                          },
+                          {
+                            "x": 24,
+                            "y": 29
+                          },
+                          {
+                            "x": 24,
+                            "y": 30
+                          },
+                          {
+                            "x": 8,
+                            "y": 30
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          },
+                          {
+                            "x": 7,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "sword_card",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sword_card_32",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 6,
+                        "y": 2
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 28
+                          },
+                          {
+                            "x": 6,
+                            "y": 28
+                          },
+                          {
+                            "x": 6,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 3
+                          },
+                          {
+                            "x": 8,
+                            "y": 3
+                          },
+                          {
+                            "x": 8,
+                            "y": 2
+                          },
+                          {
+                            "x": 24,
+                            "y": 2
+                          },
+                          {
+                            "x": 24,
+                            "y": 3
+                          },
+                          {
+                            "x": 20,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 25,
+                            "y": 4
+                          },
+                          {
+                            "x": 26,
+                            "y": 4
+                          },
+                          {
+                            "x": 26,
+                            "y": 28
+                          },
+                          {
+                            "x": 25,
+                            "y": 28
+                          },
+                          {
+                            "x": 25,
+                            "y": 29
+                          },
+                          {
+                            "x": 24,
+                            "y": 29
+                          },
+                          {
+                            "x": 24,
+                            "y": 30
+                          },
+                          {
+                            "x": 8,
+                            "y": 30
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          },
+                          {
+                            "x": 7,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "hand",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ObjectStack",
+              "type": "ObjectStack::ObjectStack"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "78fb95492456f4a12ccdbbaac9ed3b40d4fa5a52b35b023a8a9d7735bf1bc17f_Hand_Right.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 9
+                          },
+                          {
+                            "x": 88,
+                            "y": 9
+                          },
+                          {
+                            "x": 88,
+                            "y": 89
+                          },
+                          {
+                            "x": 15,
+                            "y": 89
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "card_origin",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "card_up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite17",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "card_down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "card_down2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -12810,400 +13786,82 @@
                 "objectName": "card_Direction_text"
               }
             ]
+          },
+          {
+            "objectName": "player_special"
+          },
+          {
+            "objectName": "collision_box_special"
+          },
+          {
+            "objectName": "cards"
+          },
+          {
+            "objectName": "hand"
+          },
+          {
+            "objectName": "card_origin"
           }
         ]
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "card_move",
-                "hand_origin.X() + 20",
-                "hand_origin.Y() + 30",
-                "\"UI\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "card_move",
-                "hand_origin.X() + 120",
-                "hand_origin.Y() + 30",
-                "\"UI\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "card_move",
-                "hand_origin.X() + 220",
-                "hand_origin.Y() + 30",
-                "\"UI\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "card_move",
-                "hand_origin.X() + 320",
-                "hand_origin.Y() + 30",
-                "\"UI\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetSize"
-              },
-              "parameters": [
-                "card_move",
-                "Resizable",
-                "160",
-                "224"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
-              },
-              "parameters": [
-                "Player",
-                "TopDownMovement",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Sticker::Sticker::Stick"
-              },
-              "parameters": [
-                "collision_box",
-                "Sticker",
-                "Player",
-                ""
-              ]
-            }
-          ],
+          "folded": true,
+          "name": "Main Movement System",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberObjectVariable"
+                    "value": "DepartScene"
                   },
                   "parameters": [
-                    "card_Direction_text",
-                    "card_count_text",
-                    "=",
-                    "0"
+                    ""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "card_Direction_text",
-                    "Text",
-                    "=",
-                    "\"Left\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "card_Direction_text",
-                    "card_count_text",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "card_Direction_text",
-                    "Text",
-                    "=",
-                    "\"Down\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "card_Direction_text",
-                    "card_count_text",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "card_Direction_text",
-                    "Text",
-                    "=",
-                    "\"Up\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "card_Direction_text",
-                    "card_count_text",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "card_Direction_text",
-                    "Text",
-                    "=",
-                    "\"Right\""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsPressed"
-              },
-              "parameters": [
-                "card_move",
-                "ButtonFSM",
-                "="
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "card_move",
-                    "direction",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::SimulateDownKey"
+                    "value": "TopDownMovementBehavior::IgnoreDefaultControls"
                   },
                   "parameters": [
                     "Player",
-                    "TopDownMovement"
+                    "TopDownMovement",
+                    "yes"
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                },
                 {
                   "type": {
-                    "value": "NumberObjectVariable"
+                    "value": "Sticker::Sticker::Stick"
                   },
                   "parameters": [
-                    "card_move",
-                    "direction",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::SimulateUpKey"
-                  },
-                  "parameters": [
+                    "collision_box",
+                    "Sticker",
                     "Player",
-                    "TopDownMovement"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "card_move",
-                    "direction",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::SimulateRightKey"
-                  },
-                  "parameters": [
-                    "Player",
-                    "TopDownMovement"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsPressed"
-              },
-              "parameters": [
-                "card_deck",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "card",
-                "=",
-                "RandomInRange(0, 3)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "random_direction",
-                "=",
-                "RandomInRange(0, 3)"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "card_move",
-                    "card_count",
-                    "=",
-                    "card"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "card_move",
-                    "direction",
-                    "=",
-                    "random_direction"
+                    ""
                   ]
                 }
               ],
@@ -13218,17 +13876,6 @@
                       "parameters": [
                         "card_Direction_text",
                         "card_count_text",
-                        "=",
-                        "card_move.card_count"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "card_move",
-                        "direction",
                         "=",
                         "0"
                       ]
@@ -13259,17 +13906,6 @@
                         "card_Direction_text",
                         "card_count_text",
                         "=",
-                        "card_move.card_count"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "card_move",
-                        "direction",
-                        "=",
                         "1"
                       ]
                     }
@@ -13298,17 +13934,6 @@
                       "parameters": [
                         "card_Direction_text",
                         "card_count_text",
-                        "=",
-                        "card_move.card_count"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "card_move",
-                        "direction",
                         "=",
                         "2"
                       ]
@@ -13339,17 +13964,6 @@
                         "card_Direction_text",
                         "card_count_text",
                         "=",
-                        "card_move.card_count"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "card_move",
-                        "direction",
-                        "=",
                         "3"
                       ]
                     }
@@ -13368,6 +13982,367 @@
                     }
                   ]
                 }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsPressed"
+                  },
+                  "parameters": [
+                    "card_move",
+                    "ButtonFSM",
+                    "="
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "card_move",
+                        "direction",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::SimulateDownKey"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "card_move",
+                        "direction",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::SimulateUpKey"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "card_move",
+                        "direction",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::SimulateRightKey"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsPressed"
+                  },
+                  "parameters": [
+                    "card_deck",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "card",
+                    "=",
+                    "RandomInRange(0, 3)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "random_direction",
+                    "=",
+                    "RandomInRange(0, 3)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "card_move",
+                        "card_count",
+                        "=",
+                        "card"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "card_move",
+                        "direction",
+                        "=",
+                        "random_direction"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "card_Direction_text",
+                            "card_count_text",
+                            "=",
+                            "card_move.card_count"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "card_move",
+                            "direction",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "card_Direction_text",
+                            "Text",
+                            "=",
+                            "\"Left\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "card_Direction_text",
+                            "card_count_text",
+                            "=",
+                            "card_move.card_count"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "card_move",
+                            "direction",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "card_Direction_text",
+                            "Text",
+                            "=",
+                            "\"Down\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "card_Direction_text",
+                            "card_count_text",
+                            "=",
+                            "card_move.card_count"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "card_move",
+                            "direction",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "card_Direction_text",
+                            "Text",
+                            "=",
+                            "\"Up\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "card_Direction_text",
+                            "card_count_text",
+                            "=",
+                            "card_move.card_count"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "card_move",
+                            "direction",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "card_Direction_text",
+                            "Text",
+                            "=",
+                            "\"Right\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Player Movement And Collision"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
               ]
             }
           ]
@@ -13399,28 +14374,11 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "Escape"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Quit"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ]
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Deck system"
         }
       ],
       "layers": [
@@ -13520,6 +14478,10 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "ObjectStack",
+          "type": "ObjectStack::ObjectStack"
+        },
+        {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
         },
@@ -13562,12 +14524,1350 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "associatedLayout": "Game with cards",
+      "lastChangeTimeStamp": 0,
+      "name": "Player Movement And Collision",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "collision_box_special",
+                "Sticker",
+                "player_special",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Arrows movement (Test only)",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "collision_box_special",
+                    "brick_wall_tile",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "collision_box_special",
+                        "Animation",
+                        "=",
+                        "\"Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "player_special",
+                        "=",
+                        "player_special.X() - 32"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Right\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "collision_box_special",
+                        "Animation",
+                        "=",
+                        "\"Right\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "player_special",
+                        "=",
+                        "player_special.X() + 32"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Up\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "collision_box_special",
+                        "Animation",
+                        "=",
+                        "\"Up\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "player_special",
+                        "=",
+                        "player_special.Y() - 32"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Down\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "collision_box_special",
+                        "Animation",
+                        "=",
+                        "\"Down\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "player_special",
+                        "=",
+                        "player_special.Y() + 32"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Game with cards",
+      "lastChangeTimeStamp": 0,
+      "name": "Deck system",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsPressed"
+              },
+              "parameters": [
+                "card_deck",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "cards",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "cards",
+                    "Animation",
+                    "=",
+                    "RandomInRange(1, 2)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "card_deck",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "card_deck",
+                        "ButtonFSM",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "player_special",
+                    ">",
+                    "card_origin.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "card_origin",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "cards",
+                    "Animation",
+                    "=",
+                    "\"movement_card\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cards",
+                    "Tween",
+                    "\" \"",
+                    "cards.X()",
+                    "cards.Y() - 50",
+                    "\"easeInOutSine\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "cards",
+                    ">",
+                    "card_origin.Y() - 25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "card_origin",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "cards",
+                    "Animation",
+                    "=",
+                    "\"sword_card\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cards",
+                    "Tween",
+                    "\"\"",
+                    "cards.X()",
+                    "cards.Y() + 50",
+                    "\"easeInOutSine\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Top-down movement animator",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBkPSJNNiwyMS4xYy0wLjMsMC0wLjUtMC4xLTAuNy0wLjNsLTQtNC4xYy0wLjQtMC40LTAuNC0xLDAtMS40bDQtNC4xYzAuNC0wLjQsMS0wLjQsMS40LDBzMC40LDEsMCwxLjRMMy40LDE2bDMuMywzLjMNCgkJYzAuNCwwLjQsMC40LDEsMCwxLjRDNi42LDIxLDYuMywyMS4xLDYsMjEuMXoiLz4NCjwvZz4NCjxnPg0KCTxwYXRoIGQ9Ik0yNiwyMS4xYy0wLjMsMC0wLjUtMC4xLTAuNy0wLjNjLTAuNC0wLjQtMC40LTEsMC0xLjRsMy4zLTMuM2wtMy4zLTMuM2MtMC40LTAuNC0wLjQtMSwwLTEuNHMxLTAuNCwxLjQsMGw0LjEsNC4xDQoJCWMwLjIsMC4yLDAuMywwLjQsMC4zLDAuN3MtMC4xLDAuNS0wLjMsMC43bC00LjEsNC4xQzI2LjYsMjEsMjYuMywyMS4xLDI2LDIxLjF6Ii8+DQo8L2c+DQo8Zz4NCgk8cGF0aCBkPSJNMTYsMzEuMUwxNiwzMS4xYy0wLjMsMC0wLjUtMC4xLTAuNy0wLjNsLTQtNC4xYy0wLjQtMC40LTAuNC0xLDAtMS40czEtMC40LDEuNCwwbDMuMywzLjNsMy4zLTMuM2MwLjQtMC40LDEtMC40LDEuNCwwDQoJCXMwLjQsMSwwLDEuNGwtNC4xLDQuMUMxNi42LDMwLjksMTYuMywzMS4xLDE2LDMxLjF6Ii8+DQo8L2c+DQo8Zz4NCgk8cGF0aCBkPSJNMjAuMSw3Yy0wLjMsMC0wLjUtMC4xLTAuNy0wLjNMMTYsMy40bC0zLjMsMy4zYy0wLjQsMC40LTEsMC40LTEuNCwwcy0wLjQtMSwwLTEuNGw0LTQuMWMwLjQtMC40LDEtMC40LDEuNCwwbDQuMSw0LjENCgkJYzAuNCwwLjQsMC40LDEsMCwxLjRDMjAuNiw2LjksMjAuNCw3LDIwLjEsN3oiLz4NCjwvZz4NCjxnPg0KCTxwYXRoIGQ9Ik0xNiwzMGMtMC42LDAtMS0wLjQtMS0xVjNjMC0wLjYsMC40LTEsMS0xczEsMC40LDEsMXYyNkMxNywyOS42LDE2LjYsMzAsMTYsMzB6Ii8+DQo8L2c+DQo8Zz4NCgk8cGF0aCBkPSJNMjksMTdIMmMtMC42LDAtMS0wLjQtMS0xczAuNC0xLDEtMWgyN2MwLjYsMCwxLDAuNCwxLDFTMjkuNiwxNywyOSwxN3oiLz4NCjwvZz4NCjwvc3ZnPg0K",
+      "name": "TopDownMovementAnimator",
+      "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Arrows/a6026156355ae5f03613b03971e4ddb50d0c95b8901e7a21edc57f33f0032e42_Arrows_thin_arrows_all_directions_cross.svg",
+      "shortDescription": "Change the animation according to the movement direction.",
+      "version": "0.1.2",
+      "description": "Change the animation according to the movement direction.",
+      "origin": {
+        "identifier": "TopDownMovementAnimator",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "top-down",
+        "animation",
+        "direction"
+      ],
+      "authorIds": [
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Change the animation according to the movement direction.",
+          "fullName": "Top-down movement animator",
+          "name": "TopDownMovementAnimator",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementAnimator::TopDownMovementAnimator::PropertyDirectionCount"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::DiagonalsAllowed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementAnimator::TopDownMovementAnimator::SetPropertyDirectionCount"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "8"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "TopDownMovementBehavior::DiagonalsAllowed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementAnimator::TopDownMovementAnimator::SetPropertyDirectionCount"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "4"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TopDownMovementAnimator::TopDownMovementAnimator",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementAnimator::TopDownMovementAnimator::SetAnimationDirection"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Object.Behavior::Direction()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TopDownMovementAnimator::TopDownMovementAnimator",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::Speed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TopDownMovement",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PauseAnimation"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::Speed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TopDownMovement",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlayAnimation"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementAnimator::TopDownMovementAnimator::PropertyIsScalingAnimation"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementAnimator::TopDownMovementAnimator::SetAnimationSpeedScale"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementAnimator::TopDownMovementAnimator::SetSharedPropertyNewAnimationDirection"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::Direction()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Use a small margin is used to avoid to flicker between 2 directions."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "abs(Object.Behavior::DirectionDifference(Object.Behavior::SharedPropertyNewAnimationDirection(), AnimationDirection))",
+                        ">",
+                        "0.5 + 0.03125"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementAnimator::TopDownMovementAnimator::SetAnimationDirection"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Object.Behavior::SharedPropertyNewAnimationDirection()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TopDownMovementAnimator::TopDownMovementAnimator",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the animation name of the object.",
+              "fullName": "Animation name",
+              "functionType": "ExpressionAndCondition",
+              "name": "AnimationName",
+              "sentence": "the animation name",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnString"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyAnimationName()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "string"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TopDownMovementAnimator::TopDownMovementAnimator",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "AnimationName",
+              "name": "SetAnimationName",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementAnimator::TopDownMovementAnimator::PropertyAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "GetArgumentAsString(\"Value\")"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementAnimator::TopDownMovementAnimator::SetPropertyAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"Value\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.Behavior::PropertyAnimationName() + ToString(Object.Behavior::PropertyAnimationDirection())"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TopDownMovementAnimator::TopDownMovementAnimator",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the animation is scaled according to speed.",
+              "fullName": "Scale animation according to speed",
+              "functionType": "Condition",
+              "name": "IsScalingAnimation",
+              "sentence": "_PARAM0_ animation is scaled according to speed",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementAnimator::TopDownMovementAnimator::PropertyIsScalingAnimation"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TopDownMovementAnimator::TopDownMovementAnimator",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change whether the animation is scaled according to speed or not.",
+              "fullName": "Scale animation according to speed",
+              "functionType": "Action",
+              "name": "SetIsScalingAnimation",
+              "sentence": "Scale the animation of _PARAM0_ according to speed: _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"Value\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementAnimator::TopDownMovementAnimator::SetPropertyIsScalingAnimation"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeAnimationSpeedScale"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"Value\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementAnimator::TopDownMovementAnimator::SetPropertyIsScalingAnimation"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TopDownMovementAnimator::TopDownMovementAnimator::SetAnimationSpeedScale"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TopDownMovementAnimator::TopDownMovementAnimator",
+                  "type": "behavior"
+                },
+                {
+                  "defaultValue": "yes",
+                  "description": "IsScalingAnimation",
+                  "name": "Value",
+                  "optional": true,
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the animation speed scale according to the object speed.",
+              "fullName": "Animation speed scale",
+              "functionType": "Action",
+              "name": "SetAnimationSpeedScale",
+              "private": true,
+              "sentence": "Change the animation speed scale according to _PARAM0_ speed",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeAnimationSpeedScale"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.TopDownMovement::Speed() / Object.TopDownMovement::MaxSpeed()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TopDownMovementAnimator::TopDownMovementAnimator",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the object movement direction.",
+              "fullName": "Direction",
+              "functionType": "Expression",
+              "name": "Direction",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "(Object.TopDownMovement::Angle() + AngleOffset) * DirectionCount / 360"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TopDownMovementAnimator::TopDownMovementAnimator",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the difference between 2 directions.",
+              "fullName": "Direction dirrerence",
+              "functionType": "Expression",
+              "name": "DirectionDifference",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "mod(mod(Direction - OtherDirection, DirectionCount) + DirectionCount / 2, DirectionCount) - DirectionCount / 2"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TopDownMovementAnimator::TopDownMovementAnimator",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Direction",
+                  "name": "Direction",
+                  "type": "expression"
+                },
+                {
+                  "description": "Other direction",
+                  "name": "OtherDirection",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the animation direction of the object.",
+              "fullName": "Animation direction",
+              "functionType": "Action",
+              "name": "SetAnimationDirection",
+              "private": true,
+              "sentence": "Change the animation direction of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Change the animation but keep the current frame number."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementAnimator::TopDownMovementAnimator::SetPropertyAnimationDirection"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "mod(mod(round(Value), DirectionCount) + DirectionCount, DirectionCount)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TopDownMovementAnimator::TopDownMovementAnimator::SetSharedPropertyAnimationFrame"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Sprite()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.Behavior::PropertyAnimationName() + ToString(Object.Behavior::PropertyAnimationDirection())"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::SharedPropertyAnimationFrame()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TopDownMovementAnimator::TopDownMovementAnimator",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Value",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Top-down movement",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "TopDownMovementBehavior::TopDownMovementBehavior"
+              ],
+              "name": "TopDownMovement"
+            },
+            {
+              "value": "true",
+              "type": "Boolean",
+              "label": "Scale animation according to speed",
+              "description": "",
+              "group": "Animation",
+              "extraInformation": [],
+              "name": "IsScalingAnimation"
+            },
+            {
+              "value": "Walk",
+              "type": "String",
+              "label": "Animation name",
+              "description": "Animations must be called \"Walk0\", \"Walk1\"... for left, down...",
+              "group": "Animation",
+              "extraInformation": [],
+              "name": "AnimationName"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Dimensionless",
+              "label": "Number of directions",
+              "description": "Leave to 0 to automatically use 8 when diagonals are allowed and 4 otherwise.",
+              "group": "Direction",
+              "extraInformation": [],
+              "name": "DirectionCount"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "DegreeAngle",
+              "label": "Angle offset",
+              "description": "Set to 90°, \"Walk0\" becomes the animation for down.",
+              "group": "Direction",
+              "extraInformation": [],
+              "name": "AngleOffset"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "AnimationDirection"
+            }
+          ],
+          "sharedPropertyDescriptors": [
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "NewAnimationDirection"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "AnimationFrame"
+            }
+          ]
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "D8H",
       "category": "Movement",

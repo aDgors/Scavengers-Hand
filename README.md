@@ -13,6 +13,14 @@ You can join our Discord server - **Dungeon's Entrance** - by clicking [right he
 
 # Change log
 
+## Change log v0.07a:
+
+- Player:
+	- Made a separate Player object for the mechanics of the game
+	- Player object now has custom movement and collision (toggleable collision hitbox)
+
+Making of the card system is going to be a bit complicated, especially as beginners. *Hoping someone is kind enough to help us on the house.(You can find the Discord invite above the Change log)* 
+
 ## Change log v0.05 / v0.06:
 
 	- Main menu changes:
