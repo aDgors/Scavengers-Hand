@@ -13,6 +13,16 @@ You can join our Discord server - **Dungeon's Entrance** - by clicking [right he
 
 # Change log
 
+## Change log v.0.07b:
+
+- Cards:
+	- Managed to get a small card system, with animations. (:tada:)
+
+- Levels:
+	- Added a new scene, called "Game Levels", where we can build custom levels for the public beta.
+
+Notes: I hope we can push everything tomorrow to the main branch of the game. I am going to do a cleanup of unnecessary files (unused sprites files) and, after making a few levels to show others our card system, we can publish it.
+
 ## Change log v0.07a:
 
 - Player:
