@@ -17,7 +17,26 @@ You can join our Discord server - **Dungeon's Entrance** - by clicking [right he
 
 The full license is included in the LICENSE file of the repository.
 
-# Change log
+# Change logChange log v0.08(First public beta!):
+
+- Main menu:
+	- Added a Discord button that redirects to [Dungeon's Entrance](https://discord.gg/invite/MBeE9krznG/)
+
+- Levels(Game levels scene):
+	- Added two more levels
+	- Added a hand reset tile
+	- Added end text
+
+- Cards:
+	- Added 5 more card slots, intended for higher chances of getting movement cards.
+	- Movement cards now have an arrow that shows the direction of the card.
+
+- Other:
+	- Added instructions for players
+	- Old Main Menu UI is now Secret UI
+	- New Main Menu UI
+	- Added sounds
+	- Public beta is up!
 
 ## Change log v0.07-B1 :
 
@@ -47,38 +66,38 @@ Making of the card system is going to be a bit complicated, especially as beginn
 
 ## Change log v0.05 / v0.06 :
 
-	- Main menu changes:
-		- Menu's scene's code cleaned up (Thanks to Seven)
-		- Added Procedurally Generated Demo (PGD) settings
+- Main menu changes:
+	- Menu's scene's code cleaned up (Thanks to Seven)
+	- Added Procedurally Generated Demo (PGD) settings
 
-	- Other changes:
-		- Started using structures for different things, just to keep things more organized
-		- Tidied up the main menu code a bit more
+- Other changes:
+	- Started using structures for different things, just to keep things more organized
+	- Tidied up the main menu code a bit more
 	
 
 
 ## Change log v0.04 :
 
-	- Main Menu changes:
-		- Added a Levels button for the types of level
-		- Added a Game mechanic button for game mechanics
-		- Added settings buttons for the simple dungeon generation(WIP) and noise generation
-		- All of the above will be temporary, as we're going to remove them once we publish the game.
+- Main Menu changes:
+	- Added a Levels button for the types of level
+	- Added a Game mechanic button for game mechanics
+	- Added settings buttons for the simple dungeon generation(WIP) and noise generation
+	- All of the above will be temporary, as we're going to remove them once we publish the game.
 
-	- First levels:
-		- Player now snaps to grid once teleported
+- First levels:
+	- Player now snaps to grid once teleported
 
-	- Other Mechanics:
-		- Escape key now closes the game
-		- Added back buttons for every scene
-		- Added the card mechanic
-			- You can randomize the direction of cards by pressing on the card laid on its back
-			- You can't move the player by using the keyboard
-			- Added a collision "box", which won't work in this version, but might do in later versions.
+- Other Mechanics:
+	- Escape key now closes the game
+	- Added back buttons for every scene
+	- Added the card mechanic
+		- You can randomize the direction of cards by pressing on the card laid on its back
+		- You can't move the player by using the keyboard
+		- Added a collision "box", which won't work in this version, but might do in later versions.
 	
-	- Events/Interactions:
-		- "is pressed" event is going to be used instead of "is clicked"
-		- Instead of using "on_mainMenu" or similar variables, we can use the "Visibility of a layer" function
+- Events/Interactions:
+	- "is pressed" event is going to be used instead of "is clicked"
+	- Instead of using "on_mainMenu" or similar variables, we can use the "Visibility of a layer" function
 
 ## Change log v0.03 :
 
