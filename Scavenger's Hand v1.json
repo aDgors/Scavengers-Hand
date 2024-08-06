@@ -8565,7 +8565,7 @@
           "isLocked": false,
           "name": "Main menu UI",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -8730,7 +8730,7 @@
           "isLocked": false,
           "name": "Game Mechanics",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
