@@ -7,7 +7,7 @@
 - WhiteDevil (Storyteller)
 - Roselisa (Designer)
 
-# Discord server
+## Discord server
 
 You can join our Discord server - **Dungeon's Entrance** - by clicking [right here](https://discord.gg/invite/MBeE9krznG/). Server is going to open once we gather enough members (which we call *scavengers*), but for any suggestions you can DM @adgors.
 
