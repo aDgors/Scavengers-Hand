@@ -13,7 +13,15 @@ You can join our Discord server - **Dungeon's Entrance** - by clicking [right he
 
 # Change log
 
-## Change log v.0.07b:
+## Change log v0.07-B1 :
+
+- Bugfix:
+	- The main menu now shows the appropriate "Main Menu UI" layer instead of the "Game Mechanics UI" at the start of the game.
+
+- Version numbering:
+	- Version numbers are now going to be prefixed with a bugfix number extension, `-Bx`, to differentiate bugfixes and the potentials problems they may cause. Any change to the existing game beyond a drop-in bugfix, like a mechanics change, is always a version number increment.
+
+## Change log v0.07b :
 
 - Cards:
 	- Managed to get a small card system, with animations. (:tada:)
@@ -23,15 +31,15 @@ You can join our Discord server - **Dungeon's Entrance** - by clicking [right he
 
 Notes: I hope we can push everything tomorrow to the main branch of the game. I am going to do a cleanup of unnecessary files (unused sprites files) and, after making a few levels to show others our card system, we can publish it.
 
-## Change log v0.07a:
+## Change log v0.07a :
 
 - Player:
 	- Made a separate Player object for the mechanics of the game
 	- Player object now has custom movement and collision (toggleable collision hitbox)
 
-Making of the card system is going to be a bit complicated, especially as beginners. *Hoping someone is kind enough to help us on the house.(You can find the Discord invite above the Change log)* 
+Making of the card system is going to be a bit complicated, especially as beginners. *Hoping someone is kind enough to help us on the house. (You can find the Discord invite above the Change log)* 
 
-## Change log v0.05 / v0.06:
+## Change log v0.05 / v0.06 :
 
 	- Main menu changes:
 		- Menu's scene's code cleaned up (Thanks to Seven)
@@ -43,7 +51,7 @@ Making of the card system is going to be a bit complicated, especially as beginn
 	
 
 
-## Demo version 0.04
+## Change log v0.04 :
 
 	- Main Menu changes:
 		- Added a Levels button for the types of level
@@ -66,7 +74,7 @@ Making of the card system is going to be a bit complicated, especially as beginn
 		- "is pressed" event is going to be used instead of "is clicked"
 		- Instead of using "on_mainMenu" or similar variables, we can use the "Visibility of a layer" function
 
-## Demo version 0.03
+## Change log v0.03 :
 
   -  most objects are now global objects
   -  most objects have a sprite and tile equivalent (sprite is for DungeonGenerator, and tile is for manually designing rooms)
