@@ -4472,10 +4472,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Demo v0.07a\n",
+          "string": "Demo v0.07-B1\n",
           "font": "Pixel Digivolve.ttf",
           "textAlignment": "center",
-          "characterSize": 80,
+          "characterSize": 70,
           "color": {
             "b": 255,
             "g": 255,
@@ -4495,10 +4495,10 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Demo v0.07a\n",
+            "text": "Demo v0.07-B1\n",
             "font": "Pixel Digivolve.ttf",
             "textAlignment": "center",
-            "characterSize": 80,
+            "characterSize": 70,
             "color": "255;255;255"
           }
         },
