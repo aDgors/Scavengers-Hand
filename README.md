@@ -17,7 +17,9 @@ You can join our Discord server - **Dungeon's Entrance** - by clicking [right he
 
 The full license is included in the LICENSE file of the repository.
 
-# Change logChange log v0.08(First public beta!):
+# Change log
+
+##Change log v0.08(First public beta!):
 
 - Main menu:
 	- Added a Discord button that redirects to [Dungeon's Entrance](https://discord.gg/invite/MBeE9krznG/)
