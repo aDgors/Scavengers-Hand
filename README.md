@@ -19,7 +19,7 @@ The full license is included in the LICENSE file of the repository.
 
 # Change log
 
-##Change log v0.08(First public beta!):
+## Change log v0.08(First public beta!):
 
 - Main menu:
 	- Added a Discord button that redirects to [Dungeon's Entrance](https://discord.gg/invite/MBeE9krznG/)
