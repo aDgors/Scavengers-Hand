@@ -19,6 +19,7 @@ The full license is included in the LICENSE file of the repository.
 
 # Change log
 
+
 ## Change log v0.09:
 
 - Cards:
@@ -35,6 +36,7 @@ The full license is included in the LICENSE file of the repository.
 - Fixed bug(s):
 	- Discord button now redirects you to the server, instead of discord.com
 	- Instead of waiting for the welcome splash text to disappear, added a button.
+
 
 ## Change log v0.08(First public beta!):
 
