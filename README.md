@@ -9,7 +9,7 @@
 
 ## Discord server
 
-You can join our Discord server - **Dungeon's Entrance** - by clicking [right here](https://discord.gg/invite/MBeE9krznG/). Server is going to open once we gather enough members (which we call *scavengers*), but for any suggestions you can DM @aDgors.
+You can join our Discord server - **Dungeon's Entrance** - by clicking [right here](https://discord.gg/invite/MBeE9krznG/).
 
 ## License
 
@@ -17,7 +17,26 @@ You can join our Discord server - **Dungeon's Entrance** - by clicking [right he
 
 The full license is included in the LICENSE file of the repository.
 
-# Change logChange log v0.08(First public beta!):
+# Change log
+
+## Change log v0.09:
+
+- Cards:
+	- Added weighted RNG to get more movement cards for now
+	- Sword/Attack cards will get up on the 5th level, but they won't work
+
+- Levels:
+	- Added another level, although the enemies (red squares) don't work (still WIP)
+	
+- Known bug(s):
+	- All arrow sprites vanish after a move card is used
+	- PG demo in "Levels" under "Secret UI" doesn't show any PG content.
+
+- Fixed bug(s):
+	- Discord button now redirects you to the server, instead of discord.com
+	- Instead of waiting for the welcome splash text to disappear, added a button.
+
+## Change log v0.08(First public beta!):
 
 - Main menu:
 	- Added a Discord button that redirects to [Dungeon's Entrance](https://discord.gg/invite/MBeE9krznG/)
