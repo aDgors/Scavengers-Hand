@@ -20,6 +20,12 @@ The full license is included in the LICENSE file of the repository.
 # Change log
 
 
+## Change log v0.09-B1:
+
+- Fixed bug:
+    - Re-fixed the Discord button. Should work fine now.
+
+
 ## Change log v0.09:
 
 - Cards:
