@@ -8046,7 +8046,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Main Menu UI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8176,7 +8175,7 @@
                     "value": "LaunchFile"
                   },
                   "parameters": [
-                    "\"https://discord.gg/MBeE9krznG/\"",
+                    "\"https://discord.gg/MBeE9krznG\"",
                     ""
                   ]
                 }
@@ -11094,6 +11093,10 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
           "name": "ObjectStack",
           "type": "ObjectStack::ObjectStack"
         },
@@ -13116,6 +13119,10 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
           "name": "ObjectStack",
           "type": "ObjectStack::ObjectStack"
         },
@@ -14326,6 +14333,10 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
           "name": "ObjectStack",
           "type": "ObjectStack::ObjectStack"
         },
@@ -15483,6 +15494,10 @@
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health"
         },
         {
           "name": "ObjectStack",
