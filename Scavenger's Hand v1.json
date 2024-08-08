@@ -8046,6 +8046,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Main Menu UI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19529,6 +19530,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Level teleports",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19830,7 +19832,7 @@
                 "value": "LaunchFile"
               },
               "parameters": [
-                "\"https://discord.gg/invite/MBeE9krznG/\"",
+                "\"https://discord.gg/invite/MBeE9krznG\"",
                 ""
               ]
             }
@@ -21030,7 +21032,6 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
-                          "folded": true,
                           "name": "Arrows",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
