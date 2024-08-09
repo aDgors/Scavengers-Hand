@@ -545,7 +545,7 @@
         "alwaysLoaded": false,
         "file": "assets/card_movement_direction.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/card_movement_direction.png\"}",
         "name": "card_movement_direction",
         "smoothed": false,
         "userAdded": true
@@ -1014,6 +1014,78 @@
         "name": "Left3",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/action_points.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "action_points",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/action_points2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "action_points2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/card_stats.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "card_stats",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/card_stats2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "card_stats2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/card_start.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "card_start",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/action_points2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\action_points2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/stats_down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "stats_down",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2399,6 +2471,7 @@
           "value": 1
         },
         {
+          "folded": true,
           "name": "usable",
           "type": "structure",
           "children": [
@@ -3377,6 +3450,84 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "action_points",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "card_count",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "value",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\action_points2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 6,
+                        "y": 7
+                      },
+                      {
+                        "x": 1,
+                        "y": 7
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3462,6 +3613,17 @@
         "folderName": "Card system",
         "children": [
           {
+            "folderName": "Card Stats",
+            "children": [
+              {
+                "objectName": "card_movement_direction"
+              },
+              {
+                "objectName": "action_points"
+              }
+            ]
+          },
+          {
             "objectName": "card_deck"
           },
           {
@@ -3472,9 +3634,6 @@
           },
           {
             "objectName": "card_origin"
-          },
-          {
-            "objectName": "card_movement_direction"
           }
         ]
       },
@@ -15760,7 +15919,7 @@
       "r": 37,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
-      "title": "",
+      "title": "Scavenger's Hand",
       "v": 37,
       "uiSettings": {
         "grid": true,
@@ -15772,7 +15931,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.517498559589206,
+        "zoomFactor": 0.7562477198107693,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16334,7 +16493,7 @@
           "persistentUuid": "480cdb6f-c3e2-47a6-8224-893a00612d31",
           "width": 134,
           "x": 200,
-          "y": 877,
+          "y": 1103,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -16363,7 +16522,7 @@
           "persistentUuid": "a6d03c6e-377b-447a-ae30-9933e8ecd7d3",
           "width": 134,
           "x": 360,
-          "y": 877,
+          "y": 1103,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -16387,7 +16546,7 @@
           "persistentUuid": "c46c9c7a-f5cc-4ac8-bf36-60b21f47ee3b",
           "width": 134,
           "x": 520,
-          "y": 877,
+          "y": 1103,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -16411,7 +16570,7 @@
           "persistentUuid": "262cd5a0-8614-4e0c-9be5-eb10d79c7e77",
           "width": 134,
           "x": 840,
-          "y": 877,
+          "y": 1103,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -16435,7 +16594,7 @@
           "persistentUuid": "2b561dad-ad6f-4c17-882b-cf81f9f29fb9",
           "width": 134,
           "x": 680,
-          "y": 877,
+          "y": 1103,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -16530,7 +16689,7 @@
           "persistentUuid": "dcf342ad-dd44-4a9b-92e4-34f1d455a7e6",
           "width": 134,
           "x": 1640,
-          "y": 879,
+          "y": 1105,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -16554,7 +16713,7 @@
           "persistentUuid": "5085a58e-47fd-4e36-aa6f-5eecc3cb70af",
           "width": 134,
           "x": 1480,
-          "y": 879,
+          "y": 1105,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -16578,7 +16737,7 @@
           "persistentUuid": "5bd22731-f252-4fef-b78c-b04c62ea6c1f",
           "width": 134,
           "x": 1320,
-          "y": 879,
+          "y": 1105,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -16602,7 +16761,7 @@
           "persistentUuid": "f8c8cbe4-0899-4b61-9dd3-7211238f7ad2",
           "width": 134,
           "x": 1160,
-          "y": 879,
+          "y": 1103,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -16626,7 +16785,7 @@
           "persistentUuid": "3c543179-2ffa-447b-8c24-259e651315a7",
           "width": 134,
           "x": 1000,
-          "y": 879,
+          "y": 1105,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -18706,6 +18865,539 @@
               "value": 1
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "card_start",
+          "persistentUuid": "bb2c5d39-2985-47b9-be39-ba96cc58b24b",
+          "width": 0,
+          "x": 1984,
+          "y": 880,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "action_points",
+          "persistentUuid": "7dcdeb0e-b6f3-4819-839c-c3f01da16131",
+          "width": 32,
+          "x": 256,
+          "y": 1056,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "action_points",
+          "persistentUuid": "59f19612-3d65-4693-978b-2dbaf20ee29e",
+          "width": 32,
+          "x": 416,
+          "y": 1056,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "action_points",
+          "persistentUuid": "c4fe1197-4373-4646-8fb0-80441b567b88",
+          "width": 32,
+          "x": 576,
+          "y": 1056,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "action_points",
+          "persistentUuid": "0b00b5e0-56ac-4b97-9f4b-ccea81fee989",
+          "width": 32,
+          "x": 736,
+          "y": 1056,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "action_points",
+          "persistentUuid": "2f530a63-cf4e-4c08-9143-ea4d5207c53a",
+          "width": 32,
+          "x": 896,
+          "y": 1056,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "action_points",
+          "persistentUuid": "96ec242c-51a7-4b3f-a45e-48b654852349",
+          "width": 32,
+          "x": 1056,
+          "y": 1056,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "action_points",
+          "persistentUuid": "a3315953-7c5e-40df-a006-6de56ef1d0f5",
+          "width": 32,
+          "x": 1216,
+          "y": 1056,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "action_points",
+          "persistentUuid": "1d9874ad-3de3-46d6-abbd-813c100ddc4e",
+          "width": 32,
+          "x": 1376,
+          "y": 1056,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "action_points",
+          "persistentUuid": "28066bc3-91bd-4450-b379-6d5b174dcfc5",
+          "width": 32,
+          "x": 1536,
+          "y": 1056,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "action_points",
+          "persistentUuid": "43f2fbde-e59d-4421-80e9-aac5b4d0aec2",
+          "width": 32,
+          "x": 1696,
+          "y": 1056,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "card_stats",
+          "persistentUuid": "f4f9cc26-0bd4-48a3-965a-65c35a54ca87",
+          "width": 0,
+          "x": 1984,
+          "y": 832,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "card_stats",
+          "persistentUuid": "9112fdce-d98f-4663-b403-255973081796",
+          "width": 0,
+          "x": 1984,
+          "y": 960,
+          "zOrder": 45,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "acp_value_text",
+          "persistentUuid": "d6ab193a-5ed4-4413-9016-7a1c612ca8b2",
+          "width": 32,
+          "x": 1696,
+          "y": 1056,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "acp_value_text",
+          "persistentUuid": "81d8b733-14f8-47e1-b53a-7ef7d901c9fa",
+          "width": 32,
+          "x": 1536,
+          "y": 1056,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "acp_value_text",
+          "persistentUuid": "70198ee0-66ce-4cb0-b6a9-bed46f5fd95a",
+          "width": 32,
+          "x": 1376,
+          "y": 1056,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "acp_value_text",
+          "persistentUuid": "2222bc02-6295-4b31-a537-578c82a49d73",
+          "width": 32,
+          "x": 1216,
+          "y": 1056,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "acp_value_text",
+          "persistentUuid": "320cbfd1-4f8b-4456-952d-0db3ad73eee5",
+          "width": 32,
+          "x": 1056,
+          "y": 1056,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "acp_value_text",
+          "persistentUuid": "fad3203d-b8a2-4808-afb3-abfaf1529e8d",
+          "width": 32,
+          "x": 896,
+          "y": 1056,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "acp_value_text",
+          "persistentUuid": "1a98c0cb-fd73-4745-b18f-f4ba720c1c8b",
+          "width": 32,
+          "x": 736,
+          "y": 1056,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "acp_value_text",
+          "persistentUuid": "35e32e1a-62be-4fb8-90fb-bc4e84796772",
+          "width": 32,
+          "x": 256,
+          "y": 1056,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "acp_value_text",
+          "persistentUuid": "e2409fe3-3407-4dae-8a7f-cc4961f1b466",
+          "width": 32,
+          "x": 416,
+          "y": 1056,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "acp_value_text",
+          "persistentUuid": "8c4614f4-a5de-4340-b3bc-ae48a475ccf9",
+          "width": 32,
+          "x": 576,
+          "y": 1056,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 3
+            }
+          ]
         }
       ],
       "objects": [
@@ -19265,6 +19957,237 @@
             "characterSize": 30,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "card_start",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "card_start",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "card_start",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "card_stats",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "stats_up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "stats_down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "stats_down",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "acp_value_text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "card_count",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "0",
+          "font": "Pixel Digivolve.ttf",
+          "textAlignment": "center",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "Pixel Digivolve.ttf",
+            "textAlignment": "center",
+            "characterSize": 25,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -19299,6 +20222,15 @@
           },
           {
             "objectName": "debug_lvl"
+          },
+          {
+            "objectName": "card_start"
+          },
+          {
+            "objectName": "card_stats"
+          },
+          {
+            "objectName": "acp_value_text"
           }
         ]
       },
@@ -20467,6 +21399,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21173,10 +22106,85 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "card_deck",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "cards",
+                "Tween",
+                "\"start\"",
+                "card_start.Y()",
+                "\"swingTo\"",
+                "1",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "action_points",
+                "Tween",
+                "\"start\"",
+                "card_stats.Y()",
+                "\"swingTo\"",
+                "1",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "action_points",
+                    "Tween",
+                    "\"start\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "card_deck",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -21212,7 +22220,6 @@
           ],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "cards",
               "conditions": [
@@ -21322,7 +22329,19 @@
                           ]
                         }
                       ],
-                      "actions": []
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "action_points",
+                            "value",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -21459,8 +22478,7 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
-                          "folded": true,
-                          "name": "Arrows",
+                          "name": "AcP",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
                           "events": [
@@ -21469,305 +22487,333 @@
                               "conditions": [
                                 {
                                   "type": {
-                                    "value": "NumberObjectVariable"
+                                    "value": "PosY"
                                   },
                                   "parameters": [
-                                    "cards",
-                                    "direction",
+                                    "action_points",
                                     "=",
-                                    "3"
+                                    "card_stats.Y()"
                                   ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::Once"
-                                  },
-                                  "parameters": []
                                 }
                               ],
                               "actions": [
                                 {
                                   "type": {
-                                    "value": "Wait"
+                                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                                   },
                                   "parameters": [
-                                    "0.5"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "card_movement_direction",
-                                    "cards.X()",
-                                    "cards.Y() - 32",
-                                    "\"UI\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                  },
-                                  "parameters": [
-                                    "card_movement_direction",
-                                    "Animation",
-                                    "=",
-                                    "\"arrow_right\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ResizableCapability::ResizableBehavior::SetSize"
-                                  },
-                                  "parameters": [
-                                    "card_movement_direction",
-                                    "Resizable",
-                                    "32",
-                                    "32"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "SetNumberObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "card_movement_direction",
-                                    "id",
-                                    "=",
-                                    "card_counter"
+                                    "acp_value_text",
+                                    "Tween",
+                                    "\"acp_value_text up\"",
+                                    "action_points.Y() - 32",
+                                    "\"swingFromTo\"",
+                                    "0.5",
+                                    ""
                                   ]
                                 }
                               ]
-                            },
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "Arrows",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
                             {
                               "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "NumberObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "cards",
-                                    "direction",
-                                    "=",
-                                    "2"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::Once"
-                                  },
-                                  "parameters": []
-                                }
-                              ],
+                              "conditions": [],
                               "actions": [
                                 {
                                   "type": {
                                     "value": "Wait"
                                   },
                                   "parameters": [
-                                    "0.5"
+                                    "0.2"
                                   ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "card_movement_direction",
-                                    "cards.X()",
-                                    "cards.Y() - 32",
-                                    "\"UI\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                  },
-                                  "parameters": [
-                                    "card_movement_direction",
-                                    "Animation",
-                                    "=",
-                                    "\"arrow_left\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ResizableCapability::ResizableBehavior::SetSize"
-                                  },
-                                  "parameters": [
-                                    "card_movement_direction",
-                                    "Resizable",
-                                    "32",
-                                    "32"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "SetNumberObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "card_movement_direction",
-                                    "id",
-                                    "=",
-                                    "card_counter"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "NumberObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "cards",
-                                    "direction",
-                                    "=",
-                                    "1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::Once"
-                                  },
-                                  "parameters": []
                                 }
                               ],
-                              "actions": [
+                              "events": [
                                 {
-                                  "type": {
-                                    "value": "Wait"
-                                  },
-                                  "parameters": [
-                                    "0.5"
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "NumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "cards",
+                                        "direction",
+                                        "=",
+                                        "3"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "Create"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "card_movement_direction",
+                                        "cards.X() - 32",
+                                        "cards.Y() - 48",
+                                        "\"UI\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "card_movement_direction",
+                                        "Animation",
+                                        "=",
+                                        "\"arrow_right\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                                      },
+                                      "parameters": [
+                                        "card_movement_direction",
+                                        "Resizable",
+                                        "32",
+                                        "32"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "card_movement_direction",
+                                        "id",
+                                        "=",
+                                        "cards.card_count"
+                                      ]
+                                    }
                                   ]
                                 },
                                 {
-                                  "type": {
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "card_movement_direction",
-                                    "cards.X()",
-                                    "cards.Y() - 32",
-                                    "\"UI\""
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "NumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "cards",
+                                        "direction",
+                                        "=",
+                                        "2"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "Create"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "card_movement_direction",
+                                        "cards.X() - 32",
+                                        "cards.Y() - 48",
+                                        "\"UI\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "card_movement_direction",
+                                        "Animation",
+                                        "=",
+                                        "\"arrow_left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                                      },
+                                      "parameters": [
+                                        "card_movement_direction",
+                                        "Resizable",
+                                        "32",
+                                        "32"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "card_movement_direction",
+                                        "id",
+                                        "=",
+                                        "cards.card_count"
+                                      ]
+                                    }
                                   ]
                                 },
                                 {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                  },
-                                  "parameters": [
-                                    "card_movement_direction",
-                                    "Animation",
-                                    "=",
-                                    "\"arrow_down\""
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "NumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "cards",
+                                        "direction",
+                                        "=",
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "Create"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "card_movement_direction",
+                                        "cards.X() - 32",
+                                        "cards.Y() - 48",
+                                        "\"UI\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "card_movement_direction",
+                                        "Animation",
+                                        "=",
+                                        "\"arrow_down\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                                      },
+                                      "parameters": [
+                                        "card_movement_direction",
+                                        "Resizable",
+                                        "32",
+                                        "32"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "card_movement_direction",
+                                        "id",
+                                        "=",
+                                        "cards.card_count"
+                                      ]
+                                    }
                                   ]
                                 },
                                 {
-                                  "type": {
-                                    "value": "ResizableCapability::ResizableBehavior::SetSize"
-                                  },
-                                  "parameters": [
-                                    "card_movement_direction",
-                                    "Resizable",
-                                    "32",
-                                    "32"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "SetNumberObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "card_movement_direction",
-                                    "id",
-                                    "=",
-                                    "card_counter"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "NumberObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "cards",
-                                    "direction",
-                                    "=",
-                                    "0"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::Once"
-                                  },
-                                  "parameters": []
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Wait"
-                                  },
-                                  "parameters": [
-                                    "0.5"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "card_movement_direction",
-                                    "cards.X()",
-                                    "cards.Y() - 32",
-                                    "\"UI\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                  },
-                                  "parameters": [
-                                    "card_movement_direction",
-                                    "Animation",
-                                    "=",
-                                    "\"arrow_up\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ResizableCapability::ResizableBehavior::SetSize"
-                                  },
-                                  "parameters": [
-                                    "card_movement_direction",
-                                    "Resizable",
-                                    "32",
-                                    "32"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "SetNumberObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "card_movement_direction",
-                                    "id",
-                                    "=",
-                                    "card_counter"
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "NumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "cards",
+                                        "direction",
+                                        "=",
+                                        "0"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "Create"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "card_movement_direction",
+                                        "cards.X() - 32",
+                                        "cards.Y() - 48",
+                                        "\"UI\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "card_movement_direction",
+                                        "Animation",
+                                        "=",
+                                        "\"arrow_up\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                                      },
+                                      "parameters": [
+                                        "card_movement_direction",
+                                        "Resizable",
+                                        "32",
+                                        "32"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "card_movement_direction",
+                                        "id",
+                                        "=",
+                                        "cards.card_count"
+                                      ]
+                                    }
                                   ]
                                 }
                               ]
@@ -21782,7 +22828,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "cards",
               "conditions": [],
@@ -21916,9 +22961,117 @@
                         "Tween",
                         "\"\"",
                         "cards.Y() - 50",
-                        "\"easeInOutSine\"",
+                        "\"swingTo\"",
                         "0.5",
                         "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "cards",
+                        "Tween",
+                        "\"card opacity\"",
+                        "255",
+                        "\"linear\"",
+                        "0.2",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "action_points",
+                            "card_count",
+                            "=",
+                            "cards.card_count"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "action_points",
+                            "Tween",
+                            "\"\"",
+                            "card_stats.Y()",
+                            "\"swingTo\"",
+                            "0.5",
+                            "0.5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "action_points",
+                            "Tween",
+                            "\"card opacity\"",
+                            "255",
+                            "\"linear\"",
+                            "0.2",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "acp_value_text",
+                            "card_count",
+                            "=",
+                            "cards.card_count"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "acp_value_text",
+                            "Tween",
+                            "\"\"",
+                            "action_points.Y() - 32",
+                            "\"swingTo\"",
+                            "0.5",
+                            "0.5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "acp_value_text",
+                            "Tween",
+                            "\"card opacity\"",
+                            "255",
+                            "\"linear\"",
+                            "0.2",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -22031,6 +23184,17 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "cards",
+                            "Animation",
+                            "=",
+                            "\"blank\""
+                          ]
                         }
                       ]
                     },
@@ -22051,9 +23215,117 @@
                         "Tween",
                         "\"\"",
                         "cards.Y() + 50",
-                        "\"easeInOutSine\"",
+                        "\"swingTo\"",
                         "0.5",
                         "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "cards",
+                        "Tween",
+                        "\"card opacity\"",
+                        "100",
+                        "\"linear\"",
+                        "0.2",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "action_points",
+                            "card_count",
+                            "=",
+                            "cards.card_count"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "action_points",
+                            "Tween",
+                            "\"\"",
+                            "card_stats.Y() + 50",
+                            "\"swingTo\"",
+                            "0.5",
+                            "0.5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "action_points",
+                            "Tween",
+                            "\"card opacity\"",
+                            "100",
+                            "\"linear\"",
+                            "0.2",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "acp_value_text",
+                            "card_count",
+                            "=",
+                            "cards.card_count"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "acp_value_text",
+                            "Tween",
+                            "\"\"",
+                            "card_stats.Y() + 250",
+                            "\"swingTo\"",
+                            "0.5",
+                            "0.5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "acp_value_text",
+                            "Tween",
+                            "\"card opacity\"",
+                            "100",
+                            "\"linear\"",
+                            "0.2",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -22075,12 +23347,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "card_movement_direction",
           "conditions": [
             {
               "type": {
@@ -22094,30 +23360,126 @@
             },
             {
               "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "cards",
-                "card_count",
-                "=",
-                "card_movement_direction.id"
-              ]
-            },
-            {
-              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "card_movement_direction",
-                ""
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "card_movement_direction",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "cards",
+                        "card_count",
+                        "=",
+                        "card_movement_direction.id"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "cards",
+                        "Animation",
+                        "=",
+                        "\"movement_card\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "card_movement_direction",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "cards",
+                        "card_count",
+                        "=",
+                        "action_points.card_count"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "cards",
+                        "card_count",
+                        "=",
+                        "acp_value_text.card_count"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "cards",
+                        "Animation",
+                        "=",
+                        "\"blank\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "acp_value_text",
+                        "Tween",
+                        "\"card opacity\"",
+                        "100",
+                        "\"linear\"",
+                        "0.2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "action_points",
+                        "Tween",
+                        "\"card opacity\"",
+                        "100",
+                        "\"linear\"",
+                        "0.2",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
