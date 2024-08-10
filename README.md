@@ -19,6 +19,31 @@ The full license is included in the LICENSE file of the repository.
 
 # Change log
 
+## Change log v0.10(v0.1) (SNAPSHOT):
+
+- Menu:
+	- Changed buttons to cards
+	- Added Settings button/card, not working in this version
+	- Added Credits button/card
+	- Cards and Discord button(s) now randomly turn on cursor hovered
+
+- Player:
+	- Better collision system
+
+- Cards:
+	- Cards have more animations:
+	 - Swing up at the start
+	 - Swing and change opacity when the cards usable/unusable state changes
+	- Raised card stats a bit higher
+	- Added AcP sprites
+	 - Added AcP counter above, not working in this version
+
+- Fixed Bugs:
+	- Arrow sprites fixed. Now only the corresponding arrow vanishes when the movement card is used
+
+- Found bugs:
+	- Cards spaz out if the cursor is out of their sprite when the card is turned enough to unhover the cursor
+	- Windows + Shift + S bugs out the screen/layers
 
 ## Change log v0.09-B1:
 
